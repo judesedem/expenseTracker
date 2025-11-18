@@ -1,8 +1,7 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-class User(models.Model):
-    first_name=models.CharField(max_length=30)
-    last_name=models.CharField(max_length=30)
+class Expenses(models.Model):    
     CATEGORY_CHOICES=[
         ('G','General'),
         ('F','Food'),
@@ -11,14 +10,14 @@ class User(models.Model):
         ('B','Bills')
     
     ]
-      
+    user=models.ForeignKey(User, on_delete=models.CASCADE)
     category=models.CharField(max_length=1,choices=CATEGORY_CHOICES,default='G')
-    amount=models.DecimalField(max_length=10,decimal_places=2)
+    amount=models.DecimalField(max_digits=10,decimal_places=2)
     start_date=models.DateField()
     end_date=models.DateField(auto_now=True)
 
     def __str__(self):
-        return f"{self.first_name} {self.second_name}-{self.get_category()}"
+        return f"{self.user.username} -{self.amount}-{self.get_category_display()}"
     
     
 
