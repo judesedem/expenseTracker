@@ -7,7 +7,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
     serializer_class=CategorySerializer
 
 class ExpenseViewSet(viewsets.ModelViewSet):
-    queryset=Expense.objects.all
+    queryset=Expense.objects.all()
     serializer_class=ExpenseSerializer
 
 # Create your views here.
