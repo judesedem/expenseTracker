@@ -13,6 +13,7 @@ class ExpenseSerializer(serializers.ModelSerializer):
         fields='__all__'
 
 class UserSerializer(serializers.ModelSerializer):
+    email=serializers.EmailField(required=True)
     password=serializers.CharField(write_only=True)
     
     class Meta:
@@ -28,3 +29,7 @@ class UserSerializer(serializers.ModelSerializer):
         user.save()
         return user
     
+    def validate_email(self,value):
+        if User.objects.filter(email=value).exists():
+            raise serializers.ValidationError("Email exists")
+        return value

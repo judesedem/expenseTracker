@@ -11,9 +11,9 @@ class CategoryViewSet(viewsets.ModelViewSet):
 class ExpenseViewSet(viewsets.ModelViewSet):
     queryset=Expense.objects.all()
     serializer_class=ExpenseSerializer
-#     filter_backends=[DjangoFilterBackend]
-#     filterset_fields=['category','amount']
-# # Create your views here.
+    filter_backends=[DjangoFilterBackend]
+    filterset_fields=['category','amount']
+# Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset=User.objects.all()
