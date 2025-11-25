@@ -18,4 +18,4 @@ class Expense(models.Model):
         return f"{self.user.username}- {self.amount}- {self.category}"
 
     
-# Create your models here.
+
