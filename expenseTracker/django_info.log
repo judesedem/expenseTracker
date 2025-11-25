@@ -239,3 +239,29 @@ WARNING 2025-11-25 01:07:55,120 basehttp "GET / HTTP/1.1" 404 2312
 INFO 2025-11-25 01:08:07,209 basehttp "GET /api/ HTTP/1.1" 200 144
 INFO 2025-11-25 01:09:11,204 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
 INFO 2025-11-25 01:09:13,057 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:11:40,903 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-25 01:11:42,954 log Not Found: /
+WARNING 2025-11-25 01:11:42,954 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-25 01:14:21,396 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:14:23,535 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-25 01:14:26,373 log Not Found: /
+WARNING 2025-11-25 01:14:26,373 basehttp "GET / HTTP/1.1" 404 2312
+WARNING 2025-11-25 09:04:12,240 log Not Found: /
+WARNING 2025-11-25 09:04:12,243 basehttp "GET / HTTP/1.1" 404 2312
+WARNING 2025-11-25 09:12:51,494 log Not Found: /
+WARNING 2025-11-25 09:12:51,494 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-25 09:14:50,406 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 09:15:00,009 basehttp "GET /api/expenses/ HTTP/1.1" 200 11837
+INFO 2025-11-25 09:15:00,117 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,148 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,148 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,160 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,181 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,181 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,184 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,197 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,201 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,203 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,208 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,234 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-11-25 09:15:00,798 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
