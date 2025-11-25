@@ -1,0 +1,241 @@
+INFO 2025-11-24 16:55:35,591 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-24 16:55:38,551 log Not Found: /
+WARNING 2025-11-24 16:55:38,553 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-24 16:55:47,338 basehttp "GET /api/ HTTP/1.1" 200 5541
+INFO 2025-11-24 16:55:50,940 basehttp "GET /api/User/ HTTP/1.1" 200 9883
+WARNING 2025-11-24 16:56:05,068 log Bad Request: /api/User/
+WARNING 2025-11-24 16:56:05,070 basehttp "POST /api/User/ HTTP/1.1" 400 9488
+WARNING 2025-11-24 16:56:14,515 log Bad Request: /api/User/
+WARNING 2025-11-24 16:56:14,518 basehttp "POST /api/User/ HTTP/1.1" 400 9315
+INFO 2025-11-24 16:56:38,644 basehttp "POST /api/User/ HTTP/1.1" 201 9307
+WARNING 2025-11-24 16:57:13,327 log Bad Request: /api/User/
+WARNING 2025-11-24 16:57:13,327 basehttp "POST /api/User/ HTTP/1.1" 400 9516
+WARNING 2025-11-24 16:57:32,198 log Bad Request: /api/User/
+WARNING 2025-11-24 16:57:32,201 basehttp "POST /api/User/ HTTP/1.1" 400 9304
+INFO 2025-11-24 16:59:06,595 basehttp "GET /api/ HTTP/1.1" 200 5541
+INFO 2025-11-24 16:59:10,429 basehttp "GET /api/User/ HTTP/1.1" 200 10092
+ERROR 2025-11-24 16:59:18,522 log Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 641, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django_filters\rest_framework\backends.py", line 79, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+ERROR 2025-11-24 16:59:18,536 basehttp "GET /api/expenses/ HTTP/1.1" 500 106489
+INFO 2025-11-24 22:18:27,717 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-24 22:20:56,850 log Not Found: /
+WARNING 2025-11-24 22:20:56,852 basehttp "GET / HTTP/1.1" 404 2312
+WARNING 2025-11-24 22:20:57,099 log Not Found: /favicon.ico
+WARNING 2025-11-24 22:20:57,101 basehttp "GET /favicon.ico HTTP/1.1" 404 2363
+INFO 2025-11-24 22:21:12,263 basehttp "GET /api/ HTTP/1.1" 200 5541
+INFO 2025-11-24 23:20:50,760 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-24 23:20:54,204 log Not Found: /
+WARNING 2025-11-24 23:20:54,204 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-24 23:21:06,718 basehttp "GET /api/ HTTP/1.1" 200 5541
+INFO 2025-11-24 23:21:11,380 basehttp "GET /api/User/ HTTP/1.1" 200 10092
+INFO 2025-11-24 23:21:19,893 basehttp "GET /api/categories/ HTTP/1.1" 200 9141
+ERROR 2025-11-24 23:21:24,794 log Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 641, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django_filters\rest_framework\backends.py", line 79, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+ERROR 2025-11-24 23:21:24,823 basehttp "GET /api/expenses/ HTTP/1.1" 500 106659
+INFO 2025-11-25 00:15:40,870 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-25 00:15:44,999 log Not Found: /
+WARNING 2025-11-25 00:15:45,001 basehttp "GET / HTTP/1.1" 404 2312
+ERROR 2025-11-25 00:15:56,210 log Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 641, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django_filters\rest_framework\backends.py", line 79, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+ERROR 2025-11-25 00:15:56,227 basehttp "GET /api/expenses/ HTTP/1.1" 500 106659
+INFO 2025-11-25 00:16:04,079 basehttp "GET /api/categories/ HTTP/1.1" 200 9141
+INFO 2025-11-25 00:16:08,461 basehttp "GET /api/User/ HTTP/1.1" 200 10092
+INFO 2025-11-25 00:26:00,542 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:27:58,675 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:33:33,933 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:33:35,764 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:33:37,452 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:33:39,361 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:33:42,635 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:33:44,643 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:33:54,898 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:33:57,133 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:05,019 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:06,941 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:11,112 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:12,675 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:14,352 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:15,993 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:22,017 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:23,537 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:48,405 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:50,131 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:34:55,594 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:34:57,127 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:35:38,859 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:35:40,602 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:35:45,560 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:35:47,242 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:46:27,587 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 00:46:29,328 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 00:56:13,487 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:00:04,908 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:03:27,559 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\urls.py changed, reloading.
+INFO 2025-11-25 01:03:29,344 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:03:57,316 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-11-25 01:03:59,092 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:04:03,907 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-11-25 01:04:05,337 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:04:09,794 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-11-25 01:04:11,642 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-25 01:04:16,740 log Not Found: /
+WARNING 2025-11-25 01:04:16,743 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-25 01:04:28,596 basehttp "GET /api/ HTTP/1.1" 200 5541
+ERROR 2025-11-25 01:04:31,994 log Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 641, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django_filters\rest_framework\backends.py", line 79, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+ERROR 2025-11-25 01:04:32,014 basehttp "GET /api/expenses/ HTTP/1.1" 500 106659
+INFO 2025-11-25 01:04:36,782 basehttp "GET /api/User/ HTTP/1.1" 200 10092
+INFO 2025-11-25 01:04:42,237 basehttp "GET /api/categories/ HTTP/1.1" 200 9141
+ERROR 2025-11-25 01:04:45,814 log Internal Server Error: /api/expenses/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\renderers.py", line 641, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django_filters\rest_framework\backends.py", line 79, in to_html
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+ERROR 2025-11-25 01:04:45,824 basehttp "GET /api/expenses/ HTTP/1.1" 500 106659
+INFO 2025-11-25 01:05:52,452 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:05:54,323 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:05:56,858 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:05:58,784 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:06:02,565 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:06:04,895 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:06:58,268 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:07:00,172 autoreload Watching for file changes with StatReloader
+INFO 2025-11-25 01:07:29,099 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expenseTracker\settings.py changed, reloading.
+INFO 2025-11-25 01:07:51,342 autoreload Watching for file changes with StatReloader
+WARNING 2025-11-25 01:07:55,120 log Not Found: /
+WARNING 2025-11-25 01:07:55,120 basehttp "GET / HTTP/1.1" 404 2312
+INFO 2025-11-25 01:08:07,209 basehttp "GET /api/ HTTP/1.1" 200 144
+INFO 2025-11-25 01:09:11,204 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-11-25 01:09:13,057 autoreload Watching for file changes with StatReloader
