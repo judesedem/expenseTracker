@@ -1,0 +1,75 @@
+### Signup
+POST http://127.0.0.1:8000/api/signup/
+Content-Type: application/json
+
+{
+    "username": "HelloMotherfuk3r",
+    "email": "letsgo@gmail.com",
+    "password": "82994832"
+}
+
+### Login 
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "username": "HelloMotherfuk3r",
+    "password": "82994832"
+}
+
+### Get Current User Info
+GET http://127.0.0.1:8000/api/userinfo/
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+### Get Expenses
+GET http://127.0.0.1:8000/api/expenses/
+Authorization: Token 15f0c0d4c1af69998a9c37b80a751e98f9e2a236
+
+### Create Category
+POST http://127.0.0.1:8000/api/categories/
+Content-Type: application/json
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+{
+    "name": "Food"  
+}
+
+### Create Expense
+POST http://127.0.0.1:8000/api/expenses/
+Content-Type: application/json
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+{
+    "category": 1,
+    "amount": 234.45,
+    "date": "2025-10-30",
+    "note": "Bought rice"
+}
+
+### Get Summary
+GET http://127.0.0.1:8000/api/summary/
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+### Logout
+POST http://127.0.0.1:8000/api/logout/
+Content-Type: application/json
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf100c0c0870f7023263432646db2a4cc59e41acfbb
+
+
+### Get Summary
+GET http://127.0.0.1:8000/api/monthlyview?month=10&year=2025
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+
+### Get Summary
+GET http://127.0.0.1:8000/api/amountview?start=10&end=500.00
+Authorization: Token 15f0c0d4c1af69998a9c37b80a751e98f9e2a236
+
+### Get Summary
+GET http://127.0.0.1:8000/api/categoryview?category=Food
+Authorization: Token a73b1a356886177b60acb30197bda1ec2292cf10
+
+
+
+
+#Allow the user to pick the specific month he wants to check

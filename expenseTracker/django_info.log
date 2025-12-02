@@ -1,0 +1,559 @@
+INFO 2025-12-01 12:05:15,967 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-01 12:05:24,206 views Error creating expense: Field name `note` is not valid for model `Expense` in `expense.serializers.ExpenseSerializer`.
+WARNING 2025-12-01 12:05:24,215 log Bad Request: /api/expenses/
+WARNING 2025-12-01 12:05:24,216 basehttp "POST /api/expenses/ HTTP/1.1" 400 36
+INFO 2025-12-01 12:07:28,164 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\models.py changed, reloading.
+INFO 2025-12-01 12:07:30,471 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-01 12:07:39,907 views Error creating expense: table expense_expense has no column named note
+WARNING 2025-12-01 12:07:39,917 log Bad Request: /api/expenses/
+WARNING 2025-12-01 12:07:39,919 basehttp "POST /api/expenses/ HTTP/1.1" 400 36
+INFO 2025-12-01 12:07:54,665 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\models.py changed, reloading.
+INFO 2025-12-01 12:07:56,738 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:08:03,365 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\serializers.py changed, reloading.
+INFO 2025-12-01 12:08:05,472 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:08:26,374 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:08:30,972 views Expense created by user HelloMotherfuk3r
+INFO 2025-12-01 12:08:30,977 basehttp "POST /api/expenses/ HTTP/1.1" 201 82
+INFO 2025-12-01 12:09:01,518 basehttp "GET /api/summary/ HTTP/1.1" 200 144
+INFO 2025-12-01 12:09:13,949 basehttp "GET /api/expenses/ HTTP/1.1" 200 52
+INFO 2025-12-01 12:10:08,474 basehttp "GET /api/expenses/ HTTP/1.1" 200 134
+INFO 2025-12-01 12:10:17,688 basehttp "GET /api/summary/ HTTP/1.1" 200 144
+INFO 2025-12-01 20:00:11,646 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 20:00:25,140 basehttp "GET /api/summary/ HTTP/1.1" 200 144
+INFO 2025-12-01 20:59:00,591 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 20:59:23,426 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 20:59:25,529 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-01 21:00:18,009 log Unauthorized: /api/summary/
+WARNING 2025-12-01 21:00:18,011 basehttp "GET /api/summary/ HTTP/1.1" 401 5117
+INFO 2025-12-01 21:00:19,599 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-12-01 21:00:19,698 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-12-01 21:00:19,728 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-12-01 21:00:19,741 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-12-01 21:00:19,831 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-12-01 21:00:19,875 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-12-01 21:00:19,896 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-12-01 21:00:19,924 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-12-01 21:00:20,131 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-12-01 21:00:20,141 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-12-01 21:00:20,159 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-12-01 21:00:20,241 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2025-12-01 21:00:20,469 log Not Found: /favicon.ico
+WARNING 2025-12-01 21:00:20,469 basehttp "GET /favicon.ico HTTP/1.1" 404 2363
+INFO 2025-12-01 21:01:44,308 basehttp "GET /api/summary?start=10&end=234.45 HTTP/1.1" 301 0
+INFO 2025-12-01 21:01:44,414 basehttp "GET /api/summary/?start=10&end=234.45 HTTP/1.1" 200 144
+INFO 2025-12-01 21:17:50,918 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:18:06,655 basehttp "GET /api/summary?start=10&end=234.45 HTTP/1.1" 301 0
+INFO 2025-12-01 21:18:06,686 basehttp "GET /api/summary/?start=10&end=234.45 HTTP/1.1" 200 144
+WARNING 2025-12-01 21:18:56,255 log Bad Request: /api/signup/
+WARNING 2025-12-01 21:18:56,255 basehttp "POST /api/signup/ HTTP/1.1" 400 69
+INFO 2025-12-01 21:19:05,053 basehttp "POST /api/login/ HTTP/1.1" 200 153
+INFO 2025-12-01 21:19:07,168 basehttp "POST /api/login/ HTTP/1.1" 200 153
+INFO 2025-12-01 21:19:31,188 basehttp "GET /api/expenses/ HTTP/1.1" 200 134
+INFO 2025-12-01 21:19:56,408 basehttp "GET /api/summary?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:19:56,437 basehttp "GET /api/summary/?start=10&end=500.00 HTTP/1.1" 200 144
+INFO 2025-12-01 21:21:49,119 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:21:51,290 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:21:54,783 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:21:56,733 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:00,616 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:02,686 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:06,348 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:08,312 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:11,634 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:13,907 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:17,016 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:19,025 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:24,409 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:26,482 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:38,113 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:40,383 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:44,129 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:46,535 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:22:49,915 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:22:52,297 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:23:45,606 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:23:47,921 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:23:51,249 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:23:53,138 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:26:07,644 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:26:10,053 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:26:12,964 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:26:15,279 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:26:21,994 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:26:23,823 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:26:26,989 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:26:28,853 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:27:40,671 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:27:42,618 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:27:47,065 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:27:49,518 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:27:51,792 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:27:53,680 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:27:59,419 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:28:01,533 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:28:04,676 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:28:06,787 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:28:09,909 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:28:12,014 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:28:15,062 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:28:16,937 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:28:19,928 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:28:22,001 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:28:38,383 basehttp "GET /api/summary?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:28:38,413 basehttp "GET /api/summary/?start=10&end=500.00 HTTP/1.1" 200 144
+INFO 2025-12-01 21:28:42,057 basehttp "GET /api/summary?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:28:42,081 basehttp "GET /api/summary/?start=10&end=500.00 HTTP/1.1" 200 144
+INFO 2025-12-01 21:28:44,098 basehttp "GET /api/summary?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:28:44,120 basehttp "GET /api/summary/?start=10&end=500.00 HTTP/1.1" 200 144
+INFO 2025-12-01 21:28:45,696 basehttp "GET /api/summary?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:28:45,726 basehttp "GET /api/summary/?start=10&end=500.00 HTTP/1.1" 200 144
+WARNING 2025-12-01 21:28:49,945 log Unauthorized: /api/logout/
+WARNING 2025-12-01 21:28:49,948 basehttp "POST /api/logout/ HTTP/1.1" 401 27
+INFO 2025-12-01 21:29:04,059 basehttp "GET /api/summary/ HTTP/1.1" 200 144
+WARNING 2025-12-01 21:30:07,780 log Not Found: /api/monthlyView
+WARNING 2025-12-01 21:30:07,782 basehttp "GET /api/monthlyView?start=10&end=500.00 HTTP/1.1" 404 6736
+INFO 2025-12-01 21:30:14,406 basehttp "GET /api/monthlyview?start=10&end=500.00 HTTP/1.1" 301 0
+ERROR 2025-12-01 21:30:15,863 log Internal Server Error: /api/monthlyview/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py", line 113, in get
+    expense=Expense.objects.filter(user=request.user, date__range=[start,end])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1495, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1513, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1523, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1415, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\lookups.py", line 38, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\lookups.py", line 321, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“10” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR 2025-12-01 21:30:15,892 basehttp "GET /api/monthlyview/?start=10&end=500.00 HTTP/1.1" 500 162967
+INFO 2025-12-01 21:30:18,525 basehttp "GET /api/monthlyview?start=10&end=500.00 HTTP/1.1" 301 0
+ERROR 2025-12-01 21:30:18,899 log Internal Server Error: /api/monthlyview/
+Traceback (most recent call last):
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py", line 113, in get
+    expense=Expense.objects.filter(user=request.user, date__range=[start,end])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1495, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1513, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\query.py", line 1523, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\sql\query.py", line 1415, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\lookups.py", line 38, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\lookups.py", line 321, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\fields\__init__.py", line 1537, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judef\Desktop\expenseTracker\env\Lib\site-packages\django\db\models\fields\__init__.py", line 1503, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“10” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR 2025-12-01 21:30:18,909 basehttp "GET /api/monthlyview/?start=10&end=500.00 HTTP/1.1" 500 162967
+INFO 2025-12-01 21:30:56,421 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:30:58,687 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:31:02,149 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:31:04,397 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:31:12,997 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:31:15,026 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:31:17,193 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:31:19,039 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:31:21,293 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:31:23,322 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:32,864 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:33,832 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:36,432 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:37,251 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:39,229 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:40,163 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:42,906 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:44,098 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:46,313 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:47,133 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:49,034 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:50,056 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:53,095 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:53,976 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:32:57,789 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:32:58,862 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:00,562 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:01,774 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:05,606 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:06,668 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:10,295 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:11,667 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:13,724 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:15,073 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:17,112 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:18,711 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:21,898 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:23,118 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:25,544 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:26,464 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:29,689 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:30,776 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:32,693 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:33,982 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:35,761 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:36,454 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:40,318 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:41,734 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:45,435 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:46,369 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:49,926 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:50,876 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:54,034 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:55,018 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:33:57,858 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:33:59,167 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:02,272 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:02,944 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:05,099 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:05,982 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:10,936 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:12,162 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:14,377 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:15,719 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:17,989 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:19,361 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:23,471 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:25,043 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:29,843 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:31,378 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:36,336 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:37,784 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:43,736 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:44,654 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:34:53,088 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:34:53,936 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:22,842 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:35:23,836 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:26,755 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:35:27,751 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:34,192 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:35:35,509 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:45,150 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:35:46,158 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:53,604 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:35:54,812 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:56,632 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:35:57,997 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:35:59,792 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:00,793 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:05,057 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:06,195 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:13,994 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:14,801 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:18,712 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:19,428 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:27,525 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:28,469 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:33,544 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:35,562 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:41,983 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:43,999 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:46,828 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:47,661 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:51,755 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:36:53,230 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:36:58,994 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:37:00,137 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:38:05,606 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:38:06,609 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:38:14,785 basehttp "GET /api/amountview?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:38:14,809 basehttp "GET /api/amountview/?start=10&end=500.00 HTTP/1.1" 200 2
+INFO 2025-12-01 21:39:02,096 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:02,981 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:04,824 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:05,591 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:07,432 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:08,681 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:33,627 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:34,333 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:35,744 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:36,760 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:38,623 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:39,587 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:42,147 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:43,092 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:47,595 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:49,233 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:52,346 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:39:53,436 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:39:59,282 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:40:00,236 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:40:03,828 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:40:04,727 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:40:06,514 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:40:07,792 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:40:12,805 basehttp "GET /api/amountview?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:40:12,824 basehttp "GET /api/amountview/?start=10&end=500.00 HTTP/1.1" 200 2
+INFO 2025-12-01 21:40:15,505 basehttp "GET /api/amountview?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:40:15,515 basehttp "GET /api/amountview/?start=10&end=500.00 HTTP/1.1" 200 2
+INFO 2025-12-01 21:41:05,406 basehttp "GET /api/amountview?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-01 21:41:05,425 basehttp "GET /api/amountview/?start=10&end=500.00 HTTP/1.1" 200 84
+INFO 2025-12-01 21:42:04,875 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:06,329 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:11,544 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:12,552 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:20,057 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:21,135 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:23,721 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:25,242 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:29,060 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:30,623 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:32,172 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:33,081 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:34,874 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:36,223 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:39,731 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:40,760 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:42,692 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:44,163 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:46,051 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:48,046 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:51,777 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:52,739 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:54,272 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:42:55,505 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:42:59,363 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:43:00,612 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:43:02,781 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:43:03,594 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:43:08,546 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:43:10,093 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:43:31,611 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:43:33,043 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:44:40,271 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:44:41,017 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:44:46,752 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:44:47,862 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:44:51,136 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:44:52,333 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:44:54,641 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:44:56,491 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:44:59,144 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:45:00,149 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:45:02,210 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:45:03,584 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:45:05,334 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:45:06,070 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:45:13,255 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:45:14,991 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:45:22,436 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:45:23,364 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:46:00,130 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:46:00,850 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:46:15,191 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:46:15,864 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:14,426 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:15,320 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:17,590 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:18,556 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:20,464 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:21,234 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:23,274 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:24,371 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:28,894 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:29,709 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:35,866 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:36,629 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:41,878 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:42,997 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:44,969 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:46,209 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:47:49,227 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:47:50,565 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:48:03,425 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\urls.py changed, reloading.
+INFO 2025-12-01 21:48:04,344 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:49:41,526 basehttp "GET /api/categoryview?category=Food HTTP/1.1" 301 0
+INFO 2025-12-01 21:49:41,533 basehttp "GET /api/categoryview/?category=Food HTTP/1.1" 200 2
+INFO 2025-12-01 21:50:18,949 views Expense created by user Notorious B.I.G
+INFO 2025-12-01 21:50:18,951 basehttp "POST /api/expenses/ HTTP/1.1" 201 82
+INFO 2025-12-01 21:50:25,499 basehttp "GET /api/categoryview?category=Food HTTP/1.1" 301 0
+INFO 2025-12-01 21:50:25,516 basehttp "GET /api/categoryview/?category=Food HTTP/1.1" 200 84
+INFO 2025-12-01 21:53:04,448 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:05,895 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:53:12,528 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:13,361 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:53:19,415 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:20,407 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:53:24,894 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:26,393 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:53:28,318 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:29,522 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:53:31,713 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:53:32,503 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:54:52,437 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:54:53,454 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:54:56,660 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:54:58,017 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:55:01,691 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:55:02,704 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:55:08,485 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:55:09,465 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:55:15,022 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:55:15,808 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:55:17,367 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:55:18,509 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:55:21,699 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:55:22,540 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:04,575 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:06,536 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:10,168 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:11,757 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:17,031 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:18,398 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:26,588 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:27,518 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:35,710 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:36,488 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:39,327 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:40,544 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:56:43,698 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:56:44,563 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:57:46,719 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:57:48,587 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:57:50,428 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:57:51,712 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 21:58:29,112 basehttp "GET /api/monthlyview?month=12&year=25 HTTP/1.1" 301 0
+INFO 2025-12-01 21:58:29,133 basehttp "GET /api/monthlyview/?month=12&year=25 HTTP/1.1" 200 2
+INFO 2025-12-01 21:58:36,371 basehttp "GET /api/monthlyview?month=12&year=2025 HTTP/1.1" 301 0
+INFO 2025-12-01 21:58:36,381 basehttp "GET /api/monthlyview/?month=12&year=2025 HTTP/1.1" 200 2
+INFO 2025-12-01 21:58:37,911 basehttp "GET /api/monthlyview?month=12&year=2025 HTTP/1.1" 301 0
+INFO 2025-12-01 21:58:37,921 basehttp "GET /api/monthlyview/?month=12&year=2025 HTTP/1.1" 200 2
+INFO 2025-12-01 21:58:47,614 basehttp "GET /api/monthlyview?month=11&year=2025 HTTP/1.1" 301 0
+INFO 2025-12-01 21:58:47,621 basehttp "GET /api/monthlyview/?month=11&year=2025 HTTP/1.1" 200 2
+INFO 2025-12-01 21:59:04,946 basehttp "GET /api/monthlyview?month=10&year=2025 HTTP/1.1" 301 0
+INFO 2025-12-01 21:59:04,954 basehttp "GET /api/monthlyview/?month=10&year=2025 HTTP/1.1" 200 84
+INFO 2025-12-01 21:59:49,719 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 21:59:50,734 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:00:18,441 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:00:19,130 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:00:25,091 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:00:26,239 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:00:42,008 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:00:42,862 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:00:47,840 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:00:49,190 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:03,410 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:04,512 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:11,333 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:12,323 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:17,450 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:18,466 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:20,877 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:21,889 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:24,857 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:26,186 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:01:28,216 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:01:29,046 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:00,540 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:01,819 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:04,287 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:05,601 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:08,197 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:09,496 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:11,724 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:12,918 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:15,052 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:15,867 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 22:02:50,630 autoreload C:\Users\judef\Desktop\expenseTracker\expenseTracker\expense\views.py changed, reloading.
+INFO 2025-12-01 22:02:51,438 autoreload Watching for file changes with StatReloader
+INFO 2025-12-02 09:59:40,301 autoreload Watching for file changes with StatReloader
+INFO 2025-12-02 09:59:45,089 basehttp "GET /api/categoryview?category=Food HTTP/1.1" 301 0
+INFO 2025-12-02 09:59:45,138 basehttp "GET /api/categoryview/?category=Food HTTP/1.1" 200 84
+INFO 2025-12-02 09:59:52,936 basehttp "GET /api/amountview?start=10&end=500.00 HTTP/1.1" 301 0
+INFO 2025-12-02 09:59:52,973 basehttp "GET /api/amountview/?start=10&end=500.00 HTTP/1.1" 200 84
+INFO 2025-12-02 09:59:58,095 basehttp "GET /api/monthlyview?month=10&year=2025 HTTP/1.1" 301 0
+INFO 2025-12-02 09:59:58,136 basehttp "GET /api/monthlyview/?month=10&year=2025 HTTP/1.1" 200 84
+WARNING 2025-12-02 10:00:02,196 log Unauthorized: /api/logout/
+WARNING 2025-12-02 10:00:02,201 basehttp "POST /api/logout/ HTTP/1.1" 401 27
